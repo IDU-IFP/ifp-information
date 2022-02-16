@@ -1,6 +1,16 @@
+/* 공통으로 적용되는 style */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 body {
+  margin: 0;
   background-color: black;
-}
-h1 {
+  font-family: 'Roboto', sans-serif;
   color: white;
+  box-sizing: content-box;
+}
+
+h1,
+p {
+  margin: 0;
 }
