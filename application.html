@@ -29,13 +29,39 @@
     </header>
     <main>
       <h1>14기 모집공고 <span>~ 03/15</span></h1>
-      <div>
+      <div class="who">
         <p>진로를 정하지 못한 사람</p>
         <p>웹에 관심이 있는 사람</p>
         <p>다른 사람들과 어울리며 공부해보고 싶은 사람</p>
         <p>선배 · 동기들과 친해지고 싶은 사람</p>
       </div>
-      <a href="#"><div>지원하기</div></a>
+      <div id="btn-modal">지원하기</div>
+      <div id="modal" class="modal-overlay">
+        <div class="modal-window">
+          <div class="close-area"><i class="fas fa-times"></i></div>
+
+          <div class="content">
+            <div class="info-container">
+              <img class="info-profile" src="./img/halam.png" />
+              <div class="info-content">
+                <span>회장</span>
+                <span>이하람</span>
+                <span>010 - 6600 - 3974</span>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="info-container">
+              <img class="info-profile" src="./img/chaeeun.jpg" />
+              <div class="info-content">
+                <span>부회장</span>
+                <span>정채은</span>
+                <span>010 - 8672 - 7683</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <div id="mobile">
       <span>❌데스크탑 환경에서 접속해주세요❌</span>
@@ -44,5 +70,6 @@
       <span>❌화면 크기를 더 키워주세요❌</span>
     </div>
     <script src="./menu.js"></script>
+    <script src="./modal.js"></script>
   </body>
 </html>
