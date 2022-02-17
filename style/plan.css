@@ -1,0 +1,39 @@
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.contents {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container:first-child .contents:first-child img {
+  margin-bottom: 35px;
+}
+
+.container:first-child .contents:nth-child(2) img {
+  width: 200px;
+  margin-bottom: 28px;
+}
+
+i {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
