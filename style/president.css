@@ -1,0 +1,42 @@
+main {
+  position: absolute;
+
+  top: 124px;
+  left: 44px;
+  font-size: 40px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+div {
+  width: 300px;
+  height: 95px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 48px;
+  border: 5px solid white;
+  position: absolute;
+  bottom: 50px;
+  right: 62px;
+}
+
+div:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 769px) {
+  main {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 921px) and (max-width: 1260px) {
+  main {
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,25 @@
+img {
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 56px;
+}
+
+div {
+  position: absolute;
+  top: 187px;
+  left: 448px;
+}
+
+h1 {
+  margin-bottom: 104px;
+  font-size: 64px;
+}
+
+p {
+  font-size: 48px;
+}
+
+p:first-of-type {
+  margin-bottom: 126px;
+}

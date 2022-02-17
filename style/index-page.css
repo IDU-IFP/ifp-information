@@ -1,0 +1,17 @@
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 592px;
+}
+
+.developer {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  font-size: 36px;
+}
