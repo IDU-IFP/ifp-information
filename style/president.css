@@ -10,7 +10,7 @@ p {
   margin-bottom: 20px;
 }
 
-div {
+a div {
   width: 300px;
   height: 95px;
   font-size: 36px;
@@ -24,7 +24,7 @@ div {
   right: 62px;
 }
 
-div:hover {
+a div:hover {
   background-color: white;
   color: black;
 }
