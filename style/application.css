@@ -1,3 +1,8 @@
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
 h1 {
   font-size: 72px;
   position: absolute;
@@ -9,11 +14,16 @@ h1 span {
   color: #fce300;
 }
 
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .who {
-  position: absolute;
-  top: 250px;
-  left: 52px;
   font-size: 35px;
+  margin-right: 100px;
 }
 
 p:not(:last-of-type) {
