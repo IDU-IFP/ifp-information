@@ -15,7 +15,18 @@
   </head>
   <body>
     <header>
-      <i class="menu-icon fas fa-bars"></i>
+      <i class="menu-icon fas fa-bars" onclick="menuToggle()"></i>
+      <div class="menu">
+        <ul>
+          <a href="index.html"><li>홈</li></a>
+          <a href="president.html"><li>회장 소개</li></a>
+          <a href="professor.html"><li>교수님 소개</li></a>
+          <a href="ifp.html"><li>동아리 소개</li></a>
+          <a href="study.html"><li>작년 활동</li></a>
+          <a href="#"><li>활동 계획</li></a>
+          <a href="application.html"><li>모집공고</li></a>
+        </ul>
+      </div>
     </header>
     <main>
       <h1>세미나</h1>
@@ -81,5 +92,6 @@
     <div id="full-screen">
       <span>❌화면 크기를 더 키워주세요❌</span>
     </div>
+    <script src="./menu.js"></script>
   </body>
 </html>

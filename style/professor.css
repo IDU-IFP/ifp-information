@@ -5,10 +5,10 @@ img {
   left: 56px;
 }
 
-div {
+.info {
   position: absolute;
   top: 187px;
-  left: 448px;
+  left: 350px;
 }
 
 h1 {
