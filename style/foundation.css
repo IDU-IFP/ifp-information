@@ -1,7 +1,7 @@
 h1 {
-  font-size: 144px;
+  font-size: 100px;
   position: absolute;
-  top: 46px;
+  top: 30px;
   left: 52px;
 }
 
@@ -9,5 +9,5 @@ h1 {
   font-size: 80px;
   position: absolute;
   left: 67px;
-  bottom: 200px;
+  bottom: 250px;
 }
