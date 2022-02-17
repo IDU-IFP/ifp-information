@@ -1,0 +1,40 @@
+h1 {
+  font-size: 72px;
+  position: absolute;
+  top: 52px;
+  left: 52px;
+}
+
+span {
+  color: #fce300;
+}
+
+main > div {
+  position: absolute;
+  top: 250px;
+  left: 52px;
+  font-size: 35px;
+}
+
+p:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+a div {
+  position: absolute;
+  bottom: 71px;
+  left: 42%;
+  border-radius: 48px;
+  border: 10px solid white;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+a div:hover {
+  background-color: white;
+  color: black;
+}

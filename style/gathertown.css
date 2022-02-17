@@ -1,0 +1,20 @@
+h1 {
+  font-size: 144px;
+  position: absolute;
+  top: 46px;
+  left: 52px;
+}
+
+p {
+  position: absolute;
+  top: 250px;
+  left: 52px;
+  font-size: 36px;
+}
+
+.left {
+  font-size: 80px;
+  position: absolute;
+  left: 67px;
+  bottom: 200px;
+}
