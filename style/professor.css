@@ -1,5 +1,5 @@
 img {
-  width: 250px;
+  width: 270px;
   position: absolute;
   bottom: 0;
   left: 56px;
@@ -7,8 +7,8 @@ img {
 
 .info {
   position: absolute;
-  top: 187px;
-  left: 350px;
+  top: 150px;
+  left: 450px;
 }
 
 h1 {
