@@ -86,7 +86,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./style/style.css" />
-    <link rel="stylesheet" href="./style/application.css" />
+    <link rel="stylesheet" href="./style/apply.css" />
   </head>
   <body>
     <header>
@@ -99,13 +99,13 @@
           <a href="ifp.html"><li>동아리 소개</li></a>
           <a href="study.html"><li>작년 활동</li></a>
           <a href="plan.html"><li>활동 계획</li></a>
-          <a href="application.html"><li>모집공고</li></a>
+          <a href="apply.html"><li>모집공고</li></a>
         </ul>
       </div>
     </header>
     <main>
-      <!-- <h1>14기 모집공고 <span>~ 03/15</span></h1> -->
-      <h1>14기 모집공고</h1>
+      <strike><h1>14기 모집공고</strike> <span>모집 마감</span></h1>
+      <!-- <h1>14기 모집공고</h1> -->
       <div class="container">
         <div class="who">
           <p>진로를 정하지 못한 사람</p>
@@ -113,7 +113,7 @@
           <p>다른 사람들과 어울리며 공부해보고 싶은 사람</p>
           <p>선배 · 동기들과 친해지고 싶은 사람</p>
         </div>
-        <img src="./img/application.png" />
+        <img src="./img/apply.png" />
       </div>
       <div id="btn-modal">지원하기</div>
       <div id="modal" class="modal-overlay">
@@ -144,14 +144,19 @@
       </div>
     </main>
     <div id="mobile">
-      <span>🤴🏻회장 이하람 010-6600-3974</span>
-      <span>👸🏻부회장 정채은 010-8672-7683</span>
-      <span>💬자세한 내용은 pc에서 확인해주세요</span>
+      <span>❌모집이 마감되었습니다❌</span>
+      <!-- <span>🤴🏻회장 이하람 010-6600-3974</span> -->
+      <!-- <span>👸🏻부회장 정채은 010-8672-7683</span> -->
+      <!-- <span>💬자세한 내용은 pc에서 확인해주세요</span> -->
     </div>
     <div id="full-screen">
       <span>❌화면 크기를 더 키워주세요❌</span>
     </div>
     <script src="./menu.js"></script>
-    <script src="./modal.js"></script>
+    <script>
+      const applyBtn = document.querySelector("#btn-modal");
+      applyBtn.addEventListener('click', ()=>{alert('모집이 마감되었습니다.')});
+    </script>
+    <!-- <script src="./modal.js"></script> -->
   </body>
 </html>
